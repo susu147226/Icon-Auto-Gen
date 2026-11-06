@@ -1,0 +1,22 @@
+# 生成产物
+out/
+export/
+
+# 依赖与缓存
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.cache/
+
+# 环境与密钥
+.env
+.env.*
+!*.env.example
+*.key
+
+# 临时文件
+*.tmp
+*.log
+.DS_Store
+Thumbs.db

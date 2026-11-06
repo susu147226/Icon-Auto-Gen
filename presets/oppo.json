@@ -1,0 +1,32 @@
+{
+  "id": "oppo",
+  "label": "OPPO ColorOS",
+  "canvas": [180, 180],
+  "mode": "RGBA",
+  "layered": false,
+  "path": "res/drawable-xxhdpi/{package}.png",
+  "container": {
+    "type": "zip",
+    "archive": "icons"
+  },
+  "index": {
+    "path": "allApps.xml",
+    "template": "    <icon name=\"{file}\" package=\"{package}\"/>"
+  },
+  "style": {
+    "shape": "rounded_rect",
+    "content_ratio": 0.88,
+    "corner_ratio": 0.22,
+    "safe_area_min": 0.8
+  },
+  "spec": {
+    "source": "OPPO 主题图标设计规范 v2.0",
+    "canvas_range": "180x180 ~ 240x240",
+    "content_suggested": ">=90% 期望面积",
+    "content_min": ">=80% 期望面积"
+  },
+  "measured": {
+    "sample_icons": 229
+  },
+  "notes": "包内必须有 allApps.xml 做 包名->文件名 映射。规范要求内容占比高，默认取 0.88"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "honor",
+  "label": "荣耀 MagicOS",
+  "canvas": [218, 218],
+  "mode": "RGBA",
+  "layered": false,
+  "layered_optional": true,
+  "path": "{package}.png",
+  "container": {
+    "type": "zip",
+    "archive": "icons"
+  },
+  "index": null,
+  "style": {
+    "shape": "squircle",
+    "content_ratio": 0.781,
+    "corner_ratio": 0.37
+  },
+  "measured": {
+    "sample_icons": 342,
+    "official_template_icons": 76,
+    "official_template_sizes": "61/76 = 218x218, 15/76 = 192x192"
+  },
+  "notes": "官方模板 218x218 为主、192x192 兼容旧版；模板中也存在 <包名>/background.png + foreground.png 的分层形态"
+}

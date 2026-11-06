@@ -1,0 +1,27 @@
+{
+  "id": "vivo",
+  "label": "vivo OriginOS",
+  "canvas": [240, 240],
+  "mode": "RGBA",
+  "layered": false,
+  "path": "icons/{package}.png",
+  "container": {
+    "type": "zip",
+    "archive": "theme.itz"
+  },
+  "index": null,
+  "variants": {
+    "widget_sizes": ["{package}.png", "{package}_1x2.png", "{package}_2x1.png", "{package}_2x2.png"]
+  },
+  "style": {
+    "shape": "rounded_rect",
+    "content_ratio": 0.829,
+    "corner_ratio": 0.11
+  },
+  "measured": {
+    "sample_icons": 461,
+    "official_template_icons": 328,
+    "official_template_sizes": "240x240 图标 + 240x480 / 480x240 / 480x480 小组件"
+  },
+  "notes": "官方模板 standard_OS6 里每个应用带 _1x2/_2x1/_2x2 小组件变体；纯图标任务只出 1x1"
+}

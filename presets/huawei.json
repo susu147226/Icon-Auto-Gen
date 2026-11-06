@@ -1,0 +1,24 @@
+{
+  "id": "huawei",
+  "label": "华为 4.0",
+  "canvas": [192, 192],
+  "mode": "RGBA",
+  "layered": false,
+  "path": "{package}.png",
+  "container": {
+    "type": "zip",
+    "archive": "icons"
+  },
+  "index": null,
+  "style": {
+    "shape": "rounded_rect",
+    "content_ratio": 0.776,
+    "corner_ratio": 0.26
+  },
+  "measured": {
+    "sample_icons": 224,
+    "official_template_icons": 77,
+    "official_template_sizes": "75/77 = 192x192"
+  },
+  "notes": "主题包里的 icons 本身是无扩展名 zip，解压后直接是扁平 <包名>.png"
+}

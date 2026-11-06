@@ -1,0 +1,23 @@
+{
+  "id": "harmony",
+  "label": "鸿蒙 HarmonyOS NEXT",
+  "canvas": [256, 256],
+  "mode": "RGBA",
+  "layered": true,
+  "layers": ["background", "foreground"],
+  "path": "icons/{package}/entry/{layer}.png",
+  "container": {
+    "type": "dir"
+  },
+  "index": null,
+  "style": {
+    "shape": "system_mask",
+    "content_ratio": 0.598,
+    "corner_ratio": null
+  },
+  "measured": {
+    "sample_icons": 199,
+    "layer_sizes": "background 与 foreground 均为 256x256 RGBA"
+  },
+  "notes": "唯一分层平台。background 建议不透明铺满，foreground 带透明通道；圆角由系统遮罩完成，不要自己裁"
+}
